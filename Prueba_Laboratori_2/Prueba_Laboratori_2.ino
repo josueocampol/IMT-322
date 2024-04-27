@@ -42,7 +42,7 @@ void loop() {
           Estado = Estado2;
           Serial.println("Cargando Menú.");
           delay(1000);
-        }else{
+        }else if(Monto > 0){
           Serial.println("No tienes suficiente dinero.");
         }
       }
